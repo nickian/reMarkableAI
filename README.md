@@ -2,7 +2,7 @@
 
 Write a prompt by hand to generate text from OpenAI and receive a response as a PDF document in your specified reMarkable folder.
 
-You can also simply enter a prompt in the command line interface to generate a PDF response and send it to your reMarkable using [RMAPI](https://github.com/juruen/rmapi/issues).
+You can also simply enter a prompt in the command line interface to generate a PDF response and send it to your reMarkable using [RMAPI](https://github.com/juruen/rmapi).
 
 This script is experimental and doesn't do much error checking or validation.
 
