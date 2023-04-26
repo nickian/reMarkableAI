@@ -1,0 +1,12 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.1",
+        "orhanerday/open-ai": "^4.7",
+        "league/climate": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "reMarkableAI\\": "lib/reMarkableAI"
+        }
+    }
+}
