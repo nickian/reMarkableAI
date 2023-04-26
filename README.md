@@ -18,9 +18,9 @@ Use the "convert to text" feature to convert your handwriting to text and send i
 
 <img src="screenshots/screenshot_02.jpg" alt="Convert to Text" width="650">
 
-You also must set the `prompt_keyword` to specifiy a keyword in the subject line that we'll search for. The default is "Prompt." You can use just the keyword, or you can add more to it, as seen in the example screenshot.
-
 <img src="screenshots/screenshot_03.jpg" alt="Email Text" width="650">
+
+You must set the `prompt_keyword` to specifiy a keyword in the subject line that we'll search for. The default is "Prompt." You can use just the keyword alone, or you can use it in a phrase, as seen in the example screenshot.
 
 <img src="screenshots/screenshot_04.jpg" alt="Set Keyword in Subject" width="650">
 
