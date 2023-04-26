@@ -28,7 +28,7 @@ You can also specify a folder on the IMAP server in `config.php`, if you have cr
 
 Next, a cron job checks for messages periodically. If it finds one, it will parse the email body, send a request to OpenAI, create a PDF, then upload it to your reMarkable cloud account.
 
-A document will appear in your specified folder. Not sure why, but rMAPI has a hard time creating thumbnails. If really need a thumbnail for the document, you can duplicate the doc on your reMarkable and it will show up.
+A document will appear in your specified folder. I'm not sure why, but rMAPI has a hard time creating thumbnails. If you really need a thumbnail for the document, you can duplicate the doc on your reMarkable and it will show up.
 
 <img src="screenshots/screenshot_05.jpg" alt="Document is Created" width="650">
 
