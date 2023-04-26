@@ -1,8 +1,7 @@
 <?php
-
-// Keyword to look for in email subjects lines.
 $config = [
     'script_path' => __DIR__,
+    // Keyword to look for in email subjects lines.
     'prompt_keyword' => 'Prompt',
     // If combine_paragraphs is set to true, all paragraphs in a written page will be combined into one prompt.
     // If combine_paragraphs is set to false, each handwritten paragraph will be a separate prompt and produce a separate response document.
