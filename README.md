@@ -38,7 +38,7 @@ Voilà. You have an AI-generated PDF document. Documents are also saved in the d
 
 <img src="screenshots/screenshot_06.jpg" alt="Example Document" width="650">
 
-### Using Interactive CLI
+### Using the Interactive CLI
 
 You can also simply run `php cli.php` in your terminal to give the script a prompt directly and it will upload it to your reMarkable without having to deal with cron or IMAP.
 
@@ -79,7 +79,6 @@ This example runs every minute. You may want to run this less often.
 This script makes use of these projects:
 
 - [OpenAI API Client in PHP](https://github.com/orhanerday/open-ai)
-
 - [mPDF](https://github.com/mpdf/mpdf.github.io)
-
 - [RMAPI](https://github.com/juruen/rmapi)
+- [CLImate](https://github.com/thephpleague/climate)
