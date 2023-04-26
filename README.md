@@ -14,7 +14,7 @@ Create a new folder on your reMarkable (mine is called "Prompts"). Create a new 
 
 <img src="screenshots/screenshot_01.jpg" alt="Create a Prompt" width="650">
 
-Hand write a prompt message on your reMarkable. Use the "convert to text" feature to convert your handwriting to text and send it via email to your own email account.
+Use the "convert to text" feature to convert your handwriting to text and send it via email to your own email account.
 
 <img src="screenshots/screenshot_02.jpg" alt="Convert to Text" width="650">
 
