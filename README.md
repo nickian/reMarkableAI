@@ -1,7 +1,3 @@
----
-cssclass: fullwidth
----
-
 # reMarkable AI
 
 Write a prompt by hand to generate text from OpenAI and receive a response as a PDF document in your specified reMarkable folder.
