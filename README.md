@@ -14,11 +14,9 @@ Create a new folder on your reMarkable (mine is called "Prompts"). Create a new 
 
 <img src="screenshots/screenshot_01.jpg" alt="Create a Prompt" width="650">
 
-Use the "convert to text" feature to convert your handwriting to text and send it via email to your own email account.
+Use the "convert to text" feature to convert your handwriting to text and send it via email to the address that you have specified for the IMAP server in `config.php`.
 
 <img src="screenshots/screenshot_02.jpg" alt="Convert to Text" width="650">
-
-Convert the handwriting to text and send it via email to the address that you have specified for the IMAP server in `config.php`.
 
 You also must set the `prompt_keyword` to specifiy a keyword in the subject line that we'll search for. The default is "Prompt." You can use just the keyword, or you can add more to it, as seen in the example screenshot.
 
