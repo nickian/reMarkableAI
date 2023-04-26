@@ -52,9 +52,9 @@ composer install
 
 ```
 
-### Install RMAPI
+### Install rMAPI
 
-Make sure you have [RMAPI](https://github.com/juruen/rmapi) installed and successfully tested.
+Make sure you have [rMAPI](https://github.com/juruen/rmapi) installed and successfully tested.
 
 ### Create your config file.
 
