@@ -2,7 +2,7 @@
 
 Write a prompt by hand to generate text from OpenAI and receive a response as a PDF document in your specified reMarkable folder.
 
-You can also simply enter a prompt in the command line interface to generate a PDF response and send it to your reMarkable using [RMAPI](https://github.com/juruen/rmapi).
+You can also simply enter a prompt in the command line interface to generate a PDF response and send it to your reMarkable using [rMAPI](https://github.com/juruen/rmapi).
 
 This script is experimental and doesn't do much error checking or validation.
 
@@ -30,7 +30,7 @@ Send the text to your email address that you specified in the IMAP settings. You
 
 Next, a cron job checks for messages periodically. If it finds one, it will parse the email body, send a request to OpenAI, create a PDF, then upload it to your reMarkable cloud account.
 
-A document will appear in your specified folder. Not sure why, but RMAPI has a hard time creating thumbnails. If really need a thumbnail for the document, you can duplicate the doc on your reMarkable and it will show up.
+A document will appear in your specified folder. Not sure why, but rMAPI has a hard time creating thumbnails. If really need a thumbnail for the document, you can duplicate the doc on your reMarkable and it will show up.
 
 <img src="screenshots/screenshot_05.jpg" alt="Document is Created" width="650">
 
@@ -80,5 +80,5 @@ This script makes use of these projects:
 
 - [OpenAI API Client in PHP](https://github.com/orhanerday/open-ai)
 - [mPDF](https://github.com/mpdf/mpdf.github.io)
-- [RMAPI](https://github.com/juruen/rmapi)
+- [rMAPI](https://github.com/juruen/rmapi)
 - [CLImate](https://github.com/thephpleague/climate)
