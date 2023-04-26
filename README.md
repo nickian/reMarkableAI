@@ -24,7 +24,7 @@ You must set the `prompt_keyword` to specifiy a keyword in the subject line that
 
 <img src="screenshots/screenshot_04.jpg" alt="Set Keyword in Subject" width="650">
 
-Send the text to your email address that you specified in the IMAP settings. You can also specify a folder on the IMAP server in `config.php`, if you have created a filter on the server to automatically organize prompt emails there.
+You can also specify a folder on the IMAP server in `config.php`, if you have created a filter on the server to automatically organize prompt emails there.
 
 Next, a cron job checks for messages periodically. If it finds one, it will parse the email body, send a request to OpenAI, create a PDF, then upload it to your reMarkable cloud account.
 
